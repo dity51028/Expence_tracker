@@ -15,7 +15,7 @@
           <h1>Expense Tracker</h1>
 
           <div class="balance">
-            <h2>₹0</h2>
+            <h2 id="netAmount">₹0</h2>
             <h3>Your Balance</h3>
           </div>
         </section>
@@ -43,7 +43,7 @@
         </div>
         <section class="transaction_form">
             <h3>Add transaction</h3>
-            <form >
+            <form id="transactionForm">
                <div class="input">
                 <div class="form_control">
                     <label for="text">Text</label>
@@ -55,12 +55,12 @@
                 </div>
                </div>
                 <div class="button_container">
-                    <button id="earnbtn">
-                        <p>₹0</p>
+                    <button type="submit" id="earnbtn">
+                        <p id="Earning">₹0</p>
                         <p>Earnings</p>
                     </button>
-                    <button id="expbtn">
-                        <p>₹0</p>
+                    <button type="submit" id="expbtn">
+                        <p id="Expense">₹0</p>
                         <p>Expense</p>
                     </button>
                 </div>
