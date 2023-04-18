@@ -76,6 +76,7 @@ h3{
     background-color: aliceblue;
     color: black;
     display: flex;
+    flex-direction: column;
 }
 .transaction .left{
     padding: 7px;
@@ -85,6 +86,17 @@ h3{
     align-items: center;
     
 
+}
+.content{
+    display: flex;
+}
+.lower{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.lower img{
+    height: 20px;
 }
 .status{
     background-color: var(--green);
