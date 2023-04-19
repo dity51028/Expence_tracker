@@ -21,55 +21,50 @@
         </section>
 
         <div class="transaction_container">
-            <h3>Transaction</h3>
-            <hr/>
-            <div class="transactions">
-                <div class="transaction">
-                    <div class="content">
-                        <div class="left">
-                            <p>Example Text</p>
-                            <p>+ ₹200</p>
-                        </div>
-                        <div class="status credit">C</div>
-                    </div>
-                    <div class="lower">
-                        <div class="icon">
-                            <img src="pen.svg" alt="pen">
-                        </div>
-                        <div class="icon">
-                            <img src="trash.svg" alt="trash">
-                        </div>
-                    </div>
-                </div>
-               
- </div>
-            
+          <h3>Transactions</h3>
+          <hr />
+
+          <div class="transactions">
+        
+          </div>
         </div>
         <section class="transaction_form">
-            <h3>Add transaction</h3>
-            <form id="transactionForm">
-               <div class="input">
-                <div class="form_control">
-                    <label for="text">Text</label>
-                <input placeholder="Enter Description" type="text" name="text" id="text">
-                </div>
-                <div class="form_control">
-                    <label for="text">Amount</label>
-                <input placeholder="Enter Amount" type="Number" name="amount" id="amount">
-                </div>
-               </div>
-                <div class="button_container">
-                    <button type="submit" id="earnbtn">
-                        <p id="Earning">₹0</p>
-                        <p>Earnings</p>
-                    </button>
-                    <button type="submit" id="expbtn">
-                        <p id="Expense">₹0</p>
-                        <p>Expense</p>
-                    </button>
-                </div>
-            </form>
+          <h3>Add Transactions</h3>
+          <form id="transactionForm">
+            <div class="inputs">
+              <div class="form_control">
+                <label for="text">Text</label>
+                <input
+                  placeholder="Enter Description"
+                  type="text"
+                  name="text"
+                  id="text"
+                />
+              </div>
+              <div class="form_control">
+                <label for="amount">Amount</label>
+                <input
+                  placeholder="Enter Amount"
+                  type="number"
+                  name="amount"
+                  id="amount"
+                />
+              </div>
+            </div>
+
+            <div class="buttons_container">
+              <button type="submit" id="earnBtn">
+                <p id="earning">₹0</p>
+                <p>Earnings</p>
+              </button>
+              <button type="submit" id="expBtn">
+                <p id="expense">₹0</p>
+                <p>Expense</p>
+              </button>
+            </div>
+          </form>
         </section>
+      </div>
     </div>
-</body>
+  </body>
 </html>
